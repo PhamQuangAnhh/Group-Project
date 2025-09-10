@@ -10,9 +10,91 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: "Montserrat", sans-serif;
+    font-family: "DM Sans", sans-serif;
 }
 
 a {
     text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    padding-top: 30px;
+}
+.header_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.logo_page {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo_name {
+    max-width: 85px;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #152427;
+}
+
+.navbar_list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav_item {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 1.8rem;
+    color: #575d5e;
+    transition: 0.25s;
+}
+
+.nav_item:hover {
+    color: #33cc33;
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.cta {
+    background-color: #143c3c;
+    width: 173px;
+    height: 57px;
+    border-radius: 40px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 57px;
+    color: #ffffff;
+    transition: 0.25s;
+}
+
+.cta:hover {
+    background-color: #83a17d;
+}
+
+.header_line {
+    width: 1140px;
+    height: 1px;
+    opacity: 1;
+    background: linear-gradient(
+        90deg,
+        #ffffff 0%,
+        #dddcdc 51.09%,
+        rgba(213, 213, 213, 0) 99.68%
+    );
+    margin-top: 10px;
 }
