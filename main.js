@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (currentIndex < totalSlides - 1) {
             currentIndex++;
         } else {
-            currentIndex = 0; // Quay vòng về đầu
+            currentIndex = 0;
         }
         updateCarousel();
     });
